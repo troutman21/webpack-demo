@@ -2,9 +2,9 @@
   "name": "webpack-demo",
   "version": "1.0.0",
   "description": "",
-  "main": "index1.js",
+  "main": "index.js",
   "scripts": {
-    "bundle": "webpack index1.js --mode development"
+    "bundle": "webpack index.js --mode development"
   },
   "repository": {
     "type": "git",
