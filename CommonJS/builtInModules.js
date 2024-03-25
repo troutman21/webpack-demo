@@ -13,7 +13,3 @@ console.log(`os: `, os);
 // for(const property in userInfo){
 //   console.log(`${property}: ${userInfo[property]}`);
 // }
-
-
-
-
