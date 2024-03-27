@@ -1,0 +1,10 @@
+{
+  "name": "webpack-demo",
+  "description": "demonstration on various build tool features",
+  "authors": "phillip",
+  "version": "1.0.0",
+  "main": "pathToMain",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

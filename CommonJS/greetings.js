@@ -1,4 +1,5 @@
 // step 1. Log module
+// every module has a "module" variable available globally
 console.log(`module: `, module);
 
 // step2. create an object with a method on it that references a local variable
