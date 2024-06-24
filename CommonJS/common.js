@@ -5,4 +5,4 @@ const myGreetings = require('./greetings.js');
 myGreetings.sayHi();
 
 //Bonus: what happens when we add a new name variable here?
-const name = 'Will';
+// const name = 'Will';

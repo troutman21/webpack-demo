@@ -32,10 +32,22 @@
 ## [ES6-Modules](./ES6-Modules)
 1. __Explain briefly what all of your files are doing__
     - Inside the [ES6-Modules](./ES6-Modules) directory there are 4  javascript files that are importing and exporting simple functions from file to file. Go through and briefly explain the syntax and what is happening in each of the files
+    - Files to explain:
+      - `multiplyby2.js`
+      - `addS.js`
+      - `fizzBuzz.js`
+      - `index.js`
+
+1. __Show current HTML setup (without bundling)__
+    - Show that in the index.html file we have the index.js file linked
+      - One would think that this would be okay. 
+    - Now show that when you render that html file there is an error in the console because the browser doesn't know how to handle the imports
+    - for this reason we need to use webpack
+
 
 1. __Create the bundle and run the code__
     - Make sure to run `npm install` in [this](./ES6-Modules) directory to install Webpack and other dependencies
     - Explain that the browser doesn't yet know how to use ES6 Modules so we need to use webpack to take all of our source code files and create one JS file with __all__ that source code to run in our browser
     - run the `bundle` script in [this](./ES6-Modules) directory
     - Webpack will map out your dependency tree (follow all the import statements) and create a `dist` directory with a `main.js` bundle file in it.
-    - Run that `main.js` file using Node and show all of your logs in the console
+    - Update your script tag in the `index.html` file to the `dist.main.js` file and refresh the browser to show it now working. 
